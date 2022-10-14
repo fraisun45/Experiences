@@ -1,3 +1,61 @@
 /*experiences CSS */
 
-h1{ text-align: center;}
+h1 { 
+    text-align: center;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: separate;
+}
+
+.front-panel {
+    background-color: aqua;
+    padding : 50px 180px 50px 180px;
+}
+
+.grid-container {
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: auto auto;
+    column-gap: 20px ;
+    padding: 5px;
+}
+
+.ui-container {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px ;
+    padding: 5px;
+    text-align: center;
+}
+
+.logo {
+    /*position: absolute;*/
+    background-color: beige;
+    padding: 20px 20% 20px 20px;
+    margin: 20px 90% 30px 20px;
+
+}
+
+ul > ol {
+    margin: 0px 0% 20px 0px;
+    padding: 20px 5px 20px 5px;
+}
+
+.button1 {
+    background-color: red;
+}
+
+.button2 {
+    background-color: blue;
+}
+
+.button3 {
+    background-color: rgb(15, 15, 75);
+}
+
+.button4 {
+    background-color: rgb(44, 155, 50);
+}
