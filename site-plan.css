@@ -168,3 +168,7 @@ nav a:hover {
   border-right: 1px solid;
 }
 
+.wireframe{
+  width: 400px;
+  height: 500px;
+}
